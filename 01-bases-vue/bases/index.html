@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VueJS Introduction</title>
+</head>
+<body>
+  <!-- Contro absoluto de este DIV -->
+  <div id="myApp">
+    <h2>{{ author }}</h2>
+    <p>{{ message }}</p>
+
+    <button v-on:click="changeMsg">
+      Cambiar mensaje
+    </button>
+  </div>
+
+  
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
